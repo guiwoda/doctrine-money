@@ -1,0 +1,10 @@
+Tests\Money\Doctrine\stubs\Wallet:
+  type: entity
+  id:
+    id:
+      type: integer
+      generator:
+        strategy: NONE
+  embedded:
+    content:
+      class: Money\Money
