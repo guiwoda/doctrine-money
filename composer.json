@@ -1,0 +1,31 @@
+{
+    "name": "moneyphp/doctrine-money",
+    "description": "Doctrine mappings for the Money library.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guido Contreras Woda",
+            "email": "guiwoda@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "moneyphp/money": "^3.0",
+        "doctrine/orm": "^2.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.2",
+        "laravel-doctrine/fluent": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Money\\Doctrine\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\Money\\Doctrine\\": "tests/"
+        }
+    }
+}
